@@ -1,0 +1,8 @@
+Audio :
+5V Raspberry -> Vin
+GND Raspberry -> GND
+PIN18 Raspberry -> BCLK
+PIN19 Raspberry -> LRC
+PIN21 Raspberry -> DIN
+
+PWM :
