@@ -16,12 +16,12 @@ Speaker : 3 Watt 4 Ohm
 
 Power : 5V 2.4A Powerbank for RasPi & 4*1,5V Battery Holder for Servo Motor
 
-Controller : PS4 compatibile / Chinese clone
+Controller : PS4 compatible / Chinese clone
 
 
 ## Installing
 
-### Install requisites:
+### Installing Prerequisites:
 
 Add 'config.txt' content to your RasPi config file and reboot
 
