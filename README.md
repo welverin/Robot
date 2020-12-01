@@ -49,9 +49,9 @@ sudo pip3 install pyPS4Controller
 
 Add comment to line in this file :
 
-`/etc/modprobe.d/raspi-blacklist.conf     \\comment everything`
+``/etc/modprobe.d/raspi-blacklist.conf     \\comment everything`
 
-`/etc/modules                             \\comment snd_bcm2835`
+`/etc/modules                             \\comment snd_bcm2835``
 
 Show code of the pwm board
 ```bash
