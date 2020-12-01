@@ -1,0 +1,29 @@
+sudo nano /etc/asound.conf
+pcm.hifiberry {
+type hw card 0
+}
+
+pcm.!default {
+type plug
+slave.pcm "dmixer"
+}
+
+pcm.dmixer {
+type dmix
+ipc_key 1024
+slave {
+pcm "hifiberry"
+channels 2
+}
+}
+
+Reboot
+
+speaker-test -c2 --test=wav -w /usr/share/sounds/alsa/Front_Center.wav
+sudo apt-get install mpv \\per fare play di file mp3
+mpv http://www.nasa.gov/mp3/590331main_ringtone_smallStep.mp3
+
+Il modo più semplice per risolvere è riprodurre continuamente un segnale a frequenza fissa (es. 48KHz) di completo silenzio:
+aplay -t raw -r 48000 -c 2 -f S16_LE /dev/zero &
+Lanciate il comando sopra prima di eseguire mpv o qualsiasi altro player e vedrete che i disturbi scompariranno!
+
