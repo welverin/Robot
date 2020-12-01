@@ -1,0 +1,18 @@
+sudo apt-get install smbus
+sudo apt-get install python3-pip
+sudo apt-get install python-smbus
+sudo apt-get install i2c-tools
+sudo pip3 install setuptools
+\\sudo pip3 install --upgrade setuptools
+sudo pip3 install RPI.GPIO
+sudo pip3 install adafruit-blinka
+\\sudo pip3 install --upgrade adafruit-blinka
+sudo pip3 install adafruit-circuitpython-pca9685
+sudo pip3 install adafruit-circuitpython-servokit
+sudo pip3 install pyPS4Controller
+
+sudo i2cdetect -y 1                   \\show code of the pwm board
+/etc/modprobe.d/raspi-blacklist.conf  \\comment everything
+/etc/modules                          \\comment snd_bcm2835
+
+curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash
