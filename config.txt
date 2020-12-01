@@ -2,7 +2,7 @@
 dtparam=i2c_arm=on
 dtparam=i2s=on
 dtparam=spi=on
-dtparam=audio=on
+# dtparam=audio=on
 dtoverlay=hifiberry-dac
 dtoverlay=i2s-mmap
 start_x=0
