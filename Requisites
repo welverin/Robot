@@ -15,4 +15,8 @@ sudo i2cdetect -y 1                   \\show code of the pwm board
 /etc/modprobe.d/raspi-blacklist.conf  \\comment everything
 /etc/modules                          \\comment snd_bcm2835
 
+Reboot
+
 curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash
+
+Reboot
