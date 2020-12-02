@@ -66,3 +66,16 @@ pcm.!default {
     type             plug
     slave.pcm       "softvol"
 }
+
+---------------------------------
+
+test
+speaker-test -c2
+speaker-test -c2 --test=wav -w /usr/share/sounds/alsa/Front_Center.wav
+sudo apt-get install -y mpg123
+mpg123 http://ice1.somafm.com/u80s-128-mp3
+
+At this time, Jessie Raspbery Pi kernel does not support mono audio out of the I2S interface, you can only play stereo, so any mono audio files may need conversion to stereo!
+
+Volume adjustment
+Many programs like PyGame and Sonic Pi have volume control within the application. For other programs you can set the volume using the command line tool called alsamixer. Just type alsamixer in and then use the up/down arrows to set the volume. Press Escape once its set
