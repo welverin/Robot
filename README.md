@@ -1,5 +1,5 @@
 # Robot
-R2 droid piloted by a PS4 controller
+R2 droid driven by a PS4 controller
 
 ### Hardware :
 Droid : Michael Baddeley Design
@@ -14,14 +14,14 @@ Audio Ampli. : I2S 3W Class D Amplifier Breakout - MAX98357A
 
 Speaker : 3 Watt 4 Ohm
 
-Power : 5V 2.4A Powerbank for RasPi & 4*1,5V Battery Holder for Servo Motor
+Power : 5V 2.4A Powerbank for RasPi & 4x1.5V AA Battery for Servo Motor
 
-Controller : PS4 compatible / Chinese clone
+Controller : PS4 compatible (Chinese clone)
 
 
 ## Installing
 
-### Installing Prerequisites:
+### Prerequisites:
 
 Add 'config.txt' content to your RasPi config file and reboot
 
@@ -47,7 +47,7 @@ sudo pip3 install pyPS4Controller
 
 ### Configure :
 
-Add comment to line in this file :
+Add # to item in these files :
 
 ```bash
 /etc/modprobe.d/raspi-blacklist.conf     \\comment everything
@@ -64,6 +64,8 @@ Autoconfigure the Audio Ampli :
 ```bash
 curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash
 ```
+
+Reboot the system
 
 
 ## Documentation
