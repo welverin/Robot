@@ -79,3 +79,22 @@ At this time, Jessie Raspbery Pi kernel does not support mono audio out of the I
 
 Volume adjustment
 Many programs like PyGame and Sonic Pi have volume control within the application. For other programs you can set the volume using the command line tool called alsamixer. Just type alsamixer in and then use the up/down arrows to set the volume. Press Escape once its set
+
+----------------
+
+curl -sS https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/i2samp.sh | bash
+
+We've added an extra helper systemd script that will play quiet audio when the I2S peripheral isn't in use. This removes popping when playback starts or stops. 
+
+reboot
+
+After rebooting, log back in and re-run the script again...It will ask you if you want to test the speaker. Say yes and listen for audio to come out of your speakers...
+
+reboot
+
+Once rebooted, try running alsamixer and use arrow keys to lower the volume, 50% is a good place to start.
+
+If you're still having audio problems, try re-running the script and saying N (disable) the /dev/zero playback service.
+
+
+------------------------
