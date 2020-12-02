@@ -5,4 +5,11 @@ PIN18 Raspberry -> BCLK
 PIN19 Raspberry -> LRC
 PIN21 Raspberry -> DIN
 
+Amp Vin to Raspbery Pi 5V
+Amp GND to Raspbery Pi GND
+Amp DIN to Raspbery Pi #21
+Amp BCLK to Raspbery Pi #18
+Amp LRCLK to Raspbery Pi #19
+
+
 PWM :
