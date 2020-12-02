@@ -98,3 +98,4 @@ If you're still having audio problems, try re-running the script and saying N (d
 
 
 ------------------------
+python pygameMP3.py 0.75
