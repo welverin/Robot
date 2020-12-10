@@ -30,7 +30,7 @@ Install the package you need to use the hardware :
 ```bash
 sudo apt-get install smbus
 sudo apt-get install python3-pip
-sudo apt-get install python-smbus
+sudo apt-get install python3-smbus
 sudo apt-get install i2c-tools
 ```
 
