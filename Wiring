@@ -2,7 +2,7 @@ Audio I2S :
 
 Amp       Raspberry Pi
 Vin       5V                (Pin 2)
-GND       GND               (Pin 6)
+GND       GND               (Pin 20)
 DIN       GPIO #21 PCM_DOUT (Pin 40)
 BCLK      GPIO #18 PCM_CLK  (Pin 12)
 LRCLK     GPIO #19 PCM_FS   (Pin 35)
