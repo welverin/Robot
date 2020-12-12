@@ -21,7 +21,7 @@ Controller : PS4 compatible (Chinese clone)
 
 ### Wirings
 
-In the Wirings folder there are all the connections, the scheme and the original fritzing file
+In the Wirings folder there are all the connections among boards, the scheme and the original fritzing file
 
 
 ## Installing
