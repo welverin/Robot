@@ -1,6 +1,6 @@
 # Wirings
 
-![PS4 Controller](https://github.com/ArturSpirin/pyPS4Controller/blob/master/assets/ds4.jpg)
+![Wirings](R2D2_bb.jpg)
 
 
 ## Audio I2S
