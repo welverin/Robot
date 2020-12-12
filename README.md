@@ -19,6 +19,11 @@ Power : 5V 2.4A Powerbank for RasPi & 4x1.5V AA Battery for Servo Motor
 Controller : PS4 compatible (Chinese clone)
 
 
+### Wirings
+
+In the Wirings folder there are all the connections, the scheme and the original fritzing file
+
+
 ## Installing
 
 ### Prerequisites:
