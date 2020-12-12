@@ -1,7 +1,5 @@
 # Wirings
 
-![Wirings](R2D2_bb.jpg)
-
 
 ## Audio I2S
 ```
@@ -27,3 +25,5 @@ PWM         Orange
 V+          Red
 GND         Black
 ```
+
+![Wirings](R2D2_bb.jpg)
