@@ -1,4 +1,4 @@
-# Robot
+# 3D Printed Robot
 R2 droid driven by a PS4 controller
 
 ### Hardware :
