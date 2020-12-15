@@ -57,7 +57,7 @@ Add # to item in these files :
 ```bash
 /etc/modprobe.d/raspi-blacklist.conf     \\comment everything
 
-/etc/modules                             \\comment snd_bcm2835
+/etc/modules*                            \\comment snd_bcm2835
 ```
 
 Show code of the pwm board
