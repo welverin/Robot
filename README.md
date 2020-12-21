@@ -14,7 +14,7 @@ Audio Ampli. : I2S 3W Class D Amplifier Breakout - MAX98357A
 
 Speaker : 3 Watt 4 Ohm
 
-Power : 5V 2.4A Powerbank for RasPi & 4x1.5V AA Battery for Servo Motor
+Power : 4x1.5V AA Battery
 
 Controller : PS4 compatible (Chinese clone)
 
@@ -33,16 +33,15 @@ Add 'config.txt' content to your RasPi config file and reboot
 Install the package you need to use the hardware :
 
 ```bash
-sudo apt-get install smbus
-sudo apt-get install python3-pip
-sudo apt-get install python3-smbus
-sudo apt-get install i2c-tools
+sudo apt install python3-pip
+sudo apt install i2c-tools
+sudo apt install python3-smbus
 ```
 
 Install Python3 lib :
 
 ```bash
-sudo pip3 install setuptools
+sudo pip3 install --upgrade setuptools
 sudo pip3 install RPI.GPIO
 sudo pip3 install adafruit-blinka
 sudo pip3 install adafruit-circuitpython-pca9685
