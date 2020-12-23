@@ -59,10 +59,6 @@ Add # to item in these files :
 /etc/modules                             \\comment snd_bcm2835
 ```
 
-Show code of the pwm board
-```bash
-sudo i2cdetect -y 1
-```
 
 Autoconfigure the Audio Ampli :
 ```bash
