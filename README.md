@@ -1,7 +1,7 @@
 # 3D Printed Robot
 R2 droid driven by a PS4 controller
 
-### Hardware :
+## Hardware :
 Droid : Michael Baddeley Design
 
 Head : Raspberry pi zero W
@@ -19,9 +19,34 @@ Power : 4x1.5V AA Battery
 Controller : PS4 compatible (Chinese clone)
 
 
-### Wirings
+## Wirings
 
-In the Wirings folder there are all the connections among boards, the scheme and the original fritzing file
+### Audio I2S
+```
+Amp       Raspberry Pi
+Vin       5V                (Pin 2)
+GND       GND               (Pin 20)
+DIN       GPIO #21 PCM_DOUT (Pin 40)
+BCLK      GPIO #18 PCM_CLK  (Pin 12)
+LRCLK     GPIO #19 PCM_FS   (Pin 35)
+```
+### PWM I2C
+```
+MotorBoard  Raspberry Pi
+VCC         3V3             (Pin 1)
+GND         GND             (Pin 9)
+SCL         GPIO #3 SCL     (Pin 5)
+SDA         GPIO #2 SDA     (Pin 3)
+```
+### Servo
+```
+MotorBoard  Servo
+PWM         Orange
+V+          Red
+GND         Black
+```
+
+![Wirings](Wirings\R2D2_bb.jpg)
 
 
 ## Installing
@@ -60,7 +85,7 @@ sudo pip3 install adafruit-circuitpython-servokit
 sudo pip3 install pyPS4Controller
 ```
 
-### Configure :
+## Configure :
 
 Add # to item in these files :
 
