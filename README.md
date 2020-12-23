@@ -28,7 +28,7 @@ In the Wirings folder there are all the connections among boards, the scheme and
 
 ### Prerequisites:
 
-Modify 'config.txt' reboot :
+Modify 'config.txt' and reboot :
 ```bash
 [all]
 dtparam=i2c_arm=on
