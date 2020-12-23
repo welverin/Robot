@@ -28,7 +28,18 @@ In the Wirings folder there are all the connections among boards, the scheme and
 
 ### Prerequisites:
 
-Add 'config.txt' content to your RasPi config file and reboot
+Modify 'config.txt' reboot :
+```bash
+[all]
+dtparam=i2c_arm=on
+dtparam=i2s=on
+dtparam=spi=on
+# dtparam=audio=on
+dtoverlay=hifiberry-dac
+dtoverlay=i2s-mmap
+start_x=0
+gpu_mem=16
+```
 
 Install the package you need to use the hardware :
 
