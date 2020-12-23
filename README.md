@@ -46,7 +46,7 @@ V+          Red
 GND         Black
 ```
 
-![Wirings](Wirings\R2D2_bb.jpg)
+![Wirings](Wirings/R2D2_bb.jpg)
 
 
 ## Installing
