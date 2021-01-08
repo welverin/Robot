@@ -47,12 +47,11 @@ GND         Black
 ```
 
 
-### Prerequisites:
+## Prerequisites:
 
 Arduino IDE
 Add ESP32 repository and board
 Add Library/Package for Servo and Audio
-
 
 
 ## Documentation
@@ -65,9 +64,23 @@ Add Library/Package for Servo and Audio
   
   https://www.adafruit.com/product/3006
  
-* Lib Reference
+* Library
 
-  https://github.com/adafruit/Adafruit_CircuitPython_PCA9685
+  https://learn.adafruit.com/16-channel-pwm-servo-driver/
   
-  https://github.com/adafruit/Adafruit_CircuitPython_ServoKit
+  https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/
 
+
+## Raspberry ?
+
+First version of this project was based on Raspberry Pi Zero W, the software was written in Python and everything worked very well. 
+
+Why did I change the Head to ESP32 ?
+
+The are 3 reasons. 
+
+The first was the power supply, I didn't have the physical space for a battery to power the raspberry independently from the servos.
+
+The second is the boot times and any bluetooth pairing problems. 
+
+The third is the possibility of damaging the SD card with an uncontrolled shutdown.
