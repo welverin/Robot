@@ -49,9 +49,11 @@ GND         Black
 
 ## Prerequisites:
 
+```
 Arduino IDE
 Add ESP32 repository and board
 Add Library/Package for Servo and Audio
+```
 
 
 ## Documentation
