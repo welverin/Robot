@@ -79,7 +79,7 @@ First version of this project was based on Raspberry Pi Zero W, the software was
 
 Why did I change the Head to ESP32 ?
 
-The are 3 reasons. 
+There are 3 reasons. 
 
 The first was the power supply, I didn't have the physical space for a battery to power the raspberry independently from the servos.
 
