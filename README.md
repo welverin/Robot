@@ -12,4 +12,4 @@ Audio Ampli. : I2S 3W Class D Amplifier Breakout - MAX98357A
 
 Speaker : 3 Watt 4 Ohm 
 
-Controller : PS4 compatible (Chinese clone)
+Controller : PS3 compatible (Chinese clone)
